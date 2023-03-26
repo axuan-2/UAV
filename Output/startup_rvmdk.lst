@@ -593,12 +593,11 @@ ARM Macro Assembler    Page 10
               00000200 
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
-erwork --depend=.\output\startup_rvmdk.d -o.\output\startup_rvmdk.o -I"C:\Users
-\李紫璇\Desktop\CarryPilot_For_LaunchPad_4.0.3_20210920_Released - 副本\RTE" -I
-C:\mdk\Keil\TM4C_DFP\1.1.0 -IC:\Keil_v5\ARM\CMSIS\Include -IC:\mdk\Keil\TM4C_DF
-P\1.1.0\Device\Include\TM4C123 --predefine="__UVISION_VERSION SETA 514" --prede
-fine="TM4C123GH6PM SETA 1" --list=.\output\startup_rvmdk.lst User\startup_rvmdk
-.S
+erwork --depend=.\output\startup_rvmdk.d -o.\output\startup_rvmdk.o -IC:\Users\
+李紫璇\Desktop\CarryPilot_For_LaunchPad\RTE -IC:\mdk\Keil\TM4C_DFP\1.1.0 -IC:\K
+eil_v5\ARM\CMSIS\Include -IC:\mdk\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123 --
+predefine="__UVISION_VERSION SETA 514" --predefine="TM4C123GH6PM SETA 1" --list
+=.\output\startup_rvmdk.lst User\startup_rvmdk.S
 
 
 

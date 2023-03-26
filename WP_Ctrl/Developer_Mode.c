@@ -54,9 +54,13 @@
 int8_t SDK1_Mode_Setup=0x00;
 int8_t SDK2_Mode_Setup=0x00;
 
-int8_t SDK_Mode_Transform[]={12,11,21,11,16,13,20,7,11,19,11,16,13,20,8,11,19,11,16,13,20,9,11,19,11,16,13,20,10,11};
+//int8_t SDK_Mode_Transform[]={12,11,21,11,16,13,20,7,11,19,11,16,13,20,8,11,19,11,16,13,20,9,11,19,11,16,13,20,10,11};
+//                           //B   C  D    E          
+//int8_t SDK_Mode_Len = 30-1;
+
+int8_t SDK_Mode_Transform[]={12,11,21};
                            //B   C  D    E          
-int8_t SDK_Mode_Len = 30-1;
+int8_t SDK_Mode_Len = 3-1;
 int8_t SDK_TransForm_Flag=0;
 extern uint16_t SDK_Duty_Cnt;
 //SDKÑÓÊ±Æð·É
